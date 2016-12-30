@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Belle of the Ballroom | ABOUT US</title>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+	
+	<style>
+    #slideshow {
+        height: 200px;
+        position: relative;
+        overflow: hidden;
+    }
+    #slideshow > div {
+        height: 200px;
+        width: 2526px;
+        background: url(main.jpg);
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        
+        -moz-transition:  opacity 0.5s ease-out; 
+           -o-transition: opacity 0.5s ease-out; 
+      -webkit-transition: opacity 0.5s ease-out; 
+          -ms-transition: opacity 0.5s ease-out; 
+    
+        /* Slow */
+        -webkit-animation: moveSlideshow 60s linear infinite;
+        -moz-animation:    moveSlideshow 60s linear infinite;
+        
+        -webkit-transform: translate3d(0,0,0); /* Performance */
+    
+    }
+    #slideshow #images-1 {
+        /* Sprite */
+        background-position: 0 200px;
+        
+        /* Fast */
+        -webkit-animation: moveSlideshow 20s linear infinite;
+        -moz-animation:    moveSlideshow 20s linear infinite;
+    }
+    #slideshow:hover #images-2 {
+        opacity: 0;
+    }
+    
+    @-webkit-keyframes moveSlideshow {
+        0%   { 
+            -webkit-transform: translateX(0); 
+            -moz-transform:    translateX(0); 
+            -ms-transform:     translateX(0); 
+            -o-transform:      translateX(0); 
+            transform:         translateX(0); 
+        }    
+        100% { 
+            -webkit-transform: translateX(-1684px); 
+            -moz-transform:    translateX(-1684px); 
+            -ms-transform:     translateX(-1684px); 
+            -o-transform:      translateX(-1684px); 
+            transform:         translateX(-1684px); 
+        }
+    }
+    @-moz-keyframes moveSlideshow {
+        0%   { 
+            -webkit-transform: translateX(0); 
+            -moz-transform:    translateX(0); 
+            -ms-transform:     translateX(0); 
+            -o-transform:      translateX(0); 
+            transform:         translateX(0); 
+        }    
+        100% { 
+            -webkit-transform: translateX(-1684px); 
+            -moz-transform:    translateX(-1684px); 
+            -ms-transform:     translateX(-1684px); 
+            -o-transform:      translateX(-1684px); 
+            transform:         translateX(-1684px); 
+        }
+    }
+	</style>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<script type="text/javascript">
+
+// Activate Carousel
+$("#myCarousel").carousel();
+
+// Enable Carousel Indicators
+$(".item").click(function(){
+    $("#myCarousel").carousel(1);
+});
+
+// Enable Carousel Controls
+$(".left").click(function(){
+    $("#myCarousel").carousel("prev");
+});
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('Photos/shoes22.jpg','Photos/pw 2.jpg','Photos/cd1.jpg')">
+<nav class="navbar navbar-default">
+  <div class="container-fluid"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+    
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+
+      <!--<a class="navbar-brand" href="#">Purrfect Pets</a> </div>-->
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <form class="navbar-form navbar-left" role="search">
+    
+    <img src="Photos/logo.jpg" width="200" height="75" alt=""/> 
+    </form>
+<ul class="nav navbar-nav">
+<li><a href="Belle of the ballroom.html">Home</a> </li>
+      <li class="active"><a href="Belle of the ballroom - About us.html ">About Us<span class="sr-only">(current)</span></a> </li>
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Shoes <span class="arrow">&#9660;</span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="Belle of the ballroom - Shoes - Latin.html">Latin/Rhythm</a> </li>
+            <li><a href="Belle of the ballroom - Shoes - Standard.html">Standard</a> </li>
+            <li><a href="Belle of the ballroom - Shoes - Smooth.html">Smooth</a> </li>
+          </ul>
+          </li>
+       <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Practice Wear <span class="arrow">&#9660;</span></a>
+          <ul class="dropdown-menu" role="menu">
+	      <li><a href="Belle of the ballroom - PW - Latin.html">Latin/Rhythm</a> </li>
+          <li><a href="Belle of the ballroom - PW - Standard.html">Standard/Smooth</a> </li>
+        </ul>
+        
+        <li><a href="Belle of the Ballroom - CD.html">Custom Design</a> </li>
+         <li><a href="Belle of the Ballroom - Contact Us.html">Contact Us</a> </li>
+     </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+</div>
+
+  <!-- /.container-fluid --> 
+  </div>
+</nav>
+<header>
+	
+
+<!-- HEADER -->
+
+  
+<!-- / HEADER --> 
+
+<br>
+<div class="jumbotron semiblack">
+<table align="center" width="900" border="0">
+  <tbody>
+    <tr>
+      <td><div class="jumbotron white"><table  width="450" height="205" border="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align:center">
+      <br>
+     <img src="photos/logo2.jpg" alt="about">
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</td>
+      <td><div class="jumbotron semired"><table width="450" height="205" border="0">
+  <tbody>
+    <tr>
+      <td> <p style="text-align: left; color: rgba(255,255,255,1.00); font-size: 16px;"> Belle of the Ballroom is your once stop shop for all of your ballroom dance needs, from shoes to practice wear to custom made costumes, we have everything you could ever need. Located in the heart of the GTA we are easy to reach both by car and public transportation. With hardwood flooring and great lighting you can feel the way your shoes will feel on the dance floor and see the way your costume will shine in the light. Drop by our store today and let us turn you into the Belle of the Ballroom.  </p></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</header>
+<br>
+<table align="center" width="900" border="0">
+  <tbody>
+    <tr>
+      <td><div class="jumbotron semired"><table width="450" height="200" border="0">
+  <tbody>
+    <tr>
+      <td><p style="text-align: left; color: rgba(255,255,255,1.00); font-size: 16px;"> A dancer is nothing without a perfect pair of shoes and we have the biggest selection od latin/rhythm, standard and smooth shoes in the GTA. Including shoes from: Supadance, International Dance Shoes, Aida, Eckse, RayRose as well as many others, whatever you need, we have.   </p>
+      </td>
+    </tr>
+    <tr>
+    <td style="vertical-align:top" align="center">
+    <a href="Belle of the ballroom - Shoes.html"><button  type="button" class="btn btn-lg btn-default">Shop Shoes</button></a>
+    </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</td>
+      <td><div class="jumbotron white"><table width="450" height="200" border="0">
+  <tbody>
+    <tr>
+      <td style="text-align: center; vertical-align:top">
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','Photos/shoes22.jpg',1)"><img src="Photos/shoes2.jpg" alt="" width="450" height="200" id="Image10"></a></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</td>
+    </tr>
+    <tr>
+      <td><div class="jumbotron white"><table width="450" height="200" border="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align:top">
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','Photos/pw 2.jpg',1)"><img src="Photos/pw 1.jpg" alt="" width="450" height="200" id="Image11"></a></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</td>
+      <td><div class="jumbotron semired"><table width="450" height="200" border="0">
+  <tbody>
+    <tr>
+      <td><p style="text-align: left; color: rgba(255,255,255,1.00); font-size: 16px;"> Practice makes perfect. And what makes your practice perfect? The perfect practice wear. We have a large selection of practice wear for any occasion and style. With Chrissane and Crystal Clover fabrics, you can rest assured that you'll be getting your money's worth. Drop by our store and transform your practices forever.  </p>
+      </td>
+    </tr>
+    <tr>
+    <td style="vertical-align:top" align="center">
+    <a href="Belle of the ballroom - PW.html"><button  type="button" class="btn btn-lg btn-default">Shop Practice Wear</button></a>
+    </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</td>
+    </tr>
+    <tr>
+      <td><div class="jumbotron semired"><table width="450" height="200" border="0">
+  <tbody>
+    <tr>
+      <td><p style="text-align: left; color: rgba(255,255,255,1.00); font-size: 16px;"> Have you ever dreamt of having competition or practice wear that fit you prefectly? A costume that matched your personality and style of dancing? Look no further, Belle of the Ballroom has partnered with numerous designers to bring you the ultimate costume experience.  </p>
+      </td>
+    </tr>
+    <tr>
+    <td style="vertical-align:top" align="center">
+    <a href="Belle of the ballroom - CD.html"><button  type="button" class="btn btn-lg btn-default">Shop Custom Design</button></a>
+    </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</td>
+      <td><div class="jumbotron white"><table width="450" height="200" border="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align:top">
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','Photos/cd2.jpg',1)"><img src="Photos/cd.jpg" alt="" width="450" height="200" id="Image12"></a></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+<div id="page-wrap">
+		
+	  <div id="slideshow">
+        <div id="images-1">
+        <img src="photos/slideshow - about us.jpg" width="3000" height="200" alt=""/>
+        </div>
+<div id="images-2">
+<img src="photos/slideshow - about us(bw).jpg" width="3000" height="200" alt=""/>
+</div>
+ </div>
+	</div>
+    <br>
+<!-- FOOTER -->
+<div class="jumbotron semiblack">
+
+<div class="container">
+      <table align="center" width="500" border="0" >
+  <tbody>
+    <tr>
+      <p> </p>
+      <td style="text-align:left"><p><b style="font-weight: bold"> Contact Us:</b> <i> Yonge St and 16th Ave</i><br/>
+      <b>Address: </b>9350 Yonge St, Richmond Hill, ON <br/> L4C 5G2, Canada<br/>
+        <b>Phone Number:</b> <span style="font-weight: normal">(416) 891-3946</span></p>
+     
+      </td>
+      <td style="text-align:left"><img src="photos/instagram.png" height="75" alt="ig" ></td>
+      <td style="text-align:left"><img src="photos/facebook.png" height="75" alt="fb"></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+</div>
+<br>
+<footer class="text-center">
+        <p style="text-align: center; color: #000000;">Copyright © Belle of the Ballroom 2016. All rights reserved.</p>
+        </footer>
+
+<!-- / FOOTER --> 
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<!-- <script src="js/jquery.js"></script> -->
+<script src="js/jquery-1.11.3.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="http://arrow.scrolltotop.com/arrow62.js"></script>
+<noscript>Not seeing a <a href="http://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
+
+</body>
+</html>
