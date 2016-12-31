@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Treesponsible | YOU</title>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+	
+	<style>
+    #slideshow {
+        height: 300px;
+        position: relative;
+        overflow: hidden;
+    }
+    #slideshow > div {
+        height: 300px;
+        width: 2526px;
+        background: url(main.jpg);
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        
+        -moz-transition:  opacity 0.5s ease-out; 
+           -o-transition: opacity 0.5s ease-out; 
+      -webkit-transition: opacity 0.5s ease-out; 
+          -ms-transition: opacity 0.5s ease-out; 
+    
+        /* Slow */
+        -webkit-animation: moveSlideshow 60s linear infinite;
+        -moz-animation:    moveSlideshow 60s linear infinite;
+        
+        -webkit-transform: translate3d(0,0,0); /* Performance */
+    
+    }
+    #slideshow #images-1 {
+        /* Sprite */
+        background-position: 0 200px;
+        
+        /* Fast */
+        -webkit-animation: moveSlideshow 20s linear infinite;
+        -moz-animation:    moveSlideshow 20s linear infinite;
+    }
+    #slideshow:hover #images-2 {
+        opacity: 0;
+    }
+    
+    @-webkit-keyframes moveSlideshow {
+        0%   { 
+            -webkit-transform: translateX(0); 
+            -moz-transform:    translateX(0); 
+            -ms-transform:     translateX(0); 
+            -o-transform:      translateX(0); 
+            transform:         translateX(0); 
+        }    
+        100% { 
+            -webkit-transform: translateX(-1684px); 
+            -moz-transform:    translateX(-1684px); 
+            -ms-transform:     translateX(-1684px); 
+            -o-transform:      translateX(-1684px); 
+            transform:         translateX(-1684px); 
+        }
+    }
+    @-moz-keyframes moveSlideshow {
+        0%   { 
+            -webkit-transform: translateX(0); 
+            -moz-transform:    translateX(0); 
+            -ms-transform:     translateX(0); 
+            -o-transform:      translateX(0); 
+            transform:         translateX(0); 
+        }    
+        100% { 
+            -webkit-transform: translateX(-1684px); 
+            -moz-transform:    translateX(-1684px); 
+            -ms-transform:     translateX(-1684px); 
+            -o-transform:      translateX(-1684px); 
+            transform:         translateX(-1684px); 
+        }
+    }
+	</style>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('photos/logo.jpg')">
+<nav class="navbar navbar-default">
+  <div class="container-fluid"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+     <a class="navbar-brand" href="treesponsible.html"><b>Treesponsible</b></a></div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="treesponsible - about us.html"><b>About Us</b></a> </li>
+        <li><a href="treesponsible - deforestation.html"><b>What is Deforestation?</b></a> </li>
+        <li class="active"><a href="treesponsible - you.html"><b>What Can You Do?</b><span class="sr-only">(current)</span></a> </li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="treesponsible - contact us.html"><b>Contact Us</b></a> </li>
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><b>Donate Now</b> <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="http://www.greenpeace.org/canada/en/" target="_blank">GreenPeace Canada</a> </li>
+            <li><a href="http://www.nature.org/" target="_blank">The Nature Concervancy</a> </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+
+<!-- HEADER -->
+
+	<div id="page-wrap">
+		
+	  <div id="slideshow">
+        <div id="images-1">
+        <img src="photos/slideshow - you.jpg" width="3000" height="300" alt=""/>
+        </div>
+<div id="images-2">
+<img src="photos/slideshow - you(bw).jpg" width="3000" height="300" alt=""/>
+</div>
+ </div>
+	</div>
+<br>
+<header>
+  <div class="jumbotron transparent">
+    <div class="container">
+      <div class="row">
+      <div class="text-center">
+      <h1><b>Ending deforestation is about YOU. Here's what you can do to save your planet.</b></h1>
+      </div>
+      <table align="center" width="900" border="0">
+  <tbody>
+    <tr>
+      <td><table width="300" border="0">
+  <tbody>
+    <tr>
+      <td><h2><b> 1. Plant a tree:</b> </h2>
+        <a href="http://www.tree-planter.com/" target="_blank" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','photos/plant.jpg',4)"><img src="photos/plant(bw).jpg" class="img-circle img-responsive" style="width: 200px; height: 200px;" alt="" width="200" height="200" id="Image4"></a>
+        </td>
+    </tr>
+  </tbody>
+</table>
+</td>
+      <td><table width="600" border="0">
+  <tbody>
+    <tr>
+      <td>
+      <br><br>
+      <p> Now this one might seem super simple and not very helpful, what can planting one tree accomplish, right? Wrong. There are 7 billion people on this Earth. If one persone plants one tree, there won't be a diference in the garnd scheme of things. However, if 10% of the people on this planet each planted one tree there would be 70 million more trees and that would make a siggnificant difference. Planting trees won't stop deforestation, but it can help counter the effects of it our planet. </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</td>
+    </tr>
+    <tr>
+      <td><table width="300" border="0">
+  <tbody>
+    <tr>
+      <td><h2><b>2. Recycle:</b> </h2>
+              <a href="http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=947fd187c3b02410VgnVCM10000071d60f89RCRD&vgnextchannel=03ec433112b02410VgnVCM10000071d60f89RCRD" target="_blank" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','photos/recycle.jpg',7)"><img src="photos/recycle(bw).jpg" class="img-circle img-responsive" style="width: 200px; height: 200px;" alt="" width="200" height="200" id="Image7"></a>
+</td>
+    </tr>
+  </tbody>
+</table>
+</td>
+      <td><table width="600" border="0">
+  <tbody>
+    <tr>
+      <td><br><br>
+      <p>In Grade 1 we are taught the 3 Rs: Reduce, Reuse, Recycle. If we follow this one simple rule we can lower the amount of deforestation that occurs. By recycling and using products made from recycled materials we are eliminating the need for new trees to be cut down. By doing this we are also sending a mesage to big companies and corporations and telling them that we do not agree with what they are doigna dn the fact that they are killing our planet.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</td>
+    </tr>
+    <tr>
+      <td><table width="300" border="0">
+  <tbody>
+    <tr>
+      <td><h2><b> 3. Raise your voice:</b> </h2>
+              <a href="http://www.theguardian.com/environment/pollution+world/protest" target="_blank" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','photos/protest.jpg',8)"><img src="photos/protest(bw).jpg" class="img-circle img-responsive" style="width: 200px; height: 200px;" alt="" width="200" height="200" id="Image8"></a>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+</td>
+      <td><table width="600" border="0">
+  <tbody>
+    <tr>
+      <td><br><p> The world isn't going to change itself, if you want to see a change in the world you need to make it happen. If you want deforestation to end you need to tell large companies and corporations that you arenot okay with them killing our planet. Protest against their policies and boycott their products, if no one buys their products they'll be forced to stop making them, or start making them in an eco-friendly way.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="container">
+  <div class="row" style="align-content:space-between">
+  <table align="center" width="900" border="0">
+  <tbody>
+    <tr>
+      <td><table width="400" border="0">
+  <tbody>
+    <tr>
+      <td><div class="thumbnail"> <img src="photos/greenpeace.jpg" width="200" height="200" alt="Thumbnail Image 1" class="img-responsive">
+        <div class="caption">
+          <h3>Donate to place GreenPeace Canada</h3>
+          <p>Greenpeace exists because this fragile earth deserves a voice. It needs solutions. It needs change. It needs action.</p>
+          <hr>
+          <p><a href="http://www.greenpeace.org/canada/en/" target="_blank" class="btn btn-primary" role="button">Donate</a></p>
+        </div>
+      </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+      </td>
+      <td><table width="400" border="0">
+  <tbody>
+    <tr>
+      <td><div class="thumbnail"> <img src="photos/nature.png" height="200" width="200" alt="Thumbnail Image 1" class="img-responsive">
+        <div class="caption">
+          <h3>Donate to The Nature Conservancy of Canada</h3>
+          <p>The leading conservation organization working to protect ecologically important lands and waters for everyone.</p>
+          <hr>
+          <p><a href="http://www.nature.org/" target="_blank" class="btn btn-primary" role="button">Donate</a></p>
+        </div>
+      </div></td>
+    </tr>
+  </tbody>
+</table>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</header>
+<!-- / HEADER --> 
+
+<div class="jumbotron transparent">
+<div class="container">
+  <table width="1000" border="0">
+  <tbody>
+    <tr>
+      <td>
+      <table width="250" border="0">
+  <tbody>
+    <tr>
+      <td><p style="font-size:14px"><b> Find us on social media: </b> </p>
+        <img src="photos/facebook.png" width="53" height="53" alt=""/> 
+        <img src="photos/insta.gif" width="55" height="55" alt=""/> 
+        <img src="photos/twitter.png" width="50" height="50" alt=""/> </td>
+    </tr>
+  </tbody>
+</table>
+
+      
+      <td>   
+      <table width="400" border="0">
+  <tbody>
+    <tr>
+      <td><p style="font-size: 14px"><b><i>Contact Us:</i></b><br>
+      <b>Address:</b>2230 Bathurst St, Toronto, Ontario, Canada<br/>
+        <b>Phone Number:</b> (416)789-0897</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</td>
+      <td>
+        
+
+   </td>    
+</td>
+    </tr>
+  </tbody>
+</table> 
+</div>
+<footer class="text-center">
+        <p style="font-size:12px"><b>Copyright 2016 © Treesponsible. IDC4U - Dasha Pushkareva.</b></p>
+</footer>
+    </div>
+<!-- / FOOTER --> 
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="http://arrow.scrolltotop.com/arrow53.js"></script>
+<noscript>Not seeing a <a href="http://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
+
+</body>
+</html>
