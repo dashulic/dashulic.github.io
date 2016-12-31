@@ -20,7 +20,7 @@
 <body>
 
 <div>
-<a href="index.html"><img src="Header1.png" width="1120" height="300" alt="header"/></a>
+<a href="index.html"><img src="Header1.png" width="1135" height="300" alt="header"/></a>
 </div>
 
 
