@@ -12,7 +12,7 @@ html {
 }
 body {
   margin: 0;
-  background-image:url(../photos/main.jpg);
+  background-image:url(...main.jpg);
   background-repeat:no-repeat;
   background-attachment: fixed;
   }
