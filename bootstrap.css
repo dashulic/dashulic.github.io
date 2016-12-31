@@ -13,9 +13,6 @@ html {
 body { 
 	width: 1335px; 
   margin: 0; 
-  background-image:url(../photos/main.jpg);
-  background-repeat:no-repeat; 
-  background-attachment: fixed;
   }
   
 
