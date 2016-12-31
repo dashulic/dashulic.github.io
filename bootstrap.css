@@ -12,13 +12,13 @@ html {
 }
 body {
   margin: 0;
-  background-image:url(../main.jpg);
+  background-image:url(..main.jpg);
   background-repeat:no-repeat;
   background-attachment: fixed;
   }
   .fixed-bg {
     /* The background image */
-    background-image: url("../main.jpg");
+    background-image: url("..main.jpg");
     /* Set a specified height, or the minimum height for the background image */
     min-height: 500px;
     /* Set background image to fixed (don't scroll along with the page) */
