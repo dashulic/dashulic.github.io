@@ -3,11 +3,13 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Treesponsible | HOME</title>
+<title>Daria Pushkareva | HOME</title>
 
 <!-- Bootstrap -->
 <link rel="stylesheet" href="bootstrap.css">
-
+<link rel="stylesheet" href="style.css">
+	
+	
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -16,69 +18,71 @@
     <![endif]-->
 </head>
 <body>
+
+<div>
+<a href="index.html"><img src="Header.png" width="991" height="300" alt="header"/></a>
+</div>
+
+
 <nav class="navbar navbar-default">
   <div class="container-fluid"> 
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-     <a class="navbar-brand" href="treesponsible.html"><b>Treesponsible</b></a></div>
+    </div>
     
     <!-- Collect the nav links, forms, and other content for toggling -->
+    
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    
       <ul class="nav navbar-nav">
-        <li><a href="treesponsible - about us.html"><b>About Us</b> </a> </li>
-        <li><a href="treesponsible - deforestation.html"><b>What is Deforestation?</b></a> </li>
-        <li><a href="treesponsible - you.html"><b>What Can You Do?</b></a> </li>
+        <li><a href="about me.html"><b>About Me</b></a> </li>
+        <li><a href="portfolio.html"><b>Portfolio</b></a> </li>
+        <li><a href="resume.html"><b>Resume</b></a> </li>
+        <li><a href="contact me.html"><b>Contact Me</b></a> </li> 
       </ul>
-      <form class="navbar-form navbar-right" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="treesponsible - contact us.html"><b>Contact Us</b></a> </li>
-        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><b>Donate Now</b> <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="http://www.greenpeace.org/canada/en/" target="_blank">GreenPeace Canada</a> </li>
-            <li><a href="http://www.nature.org/" target="_blank">The Nature Concervancy</a> </li>
-          </ul>
-        </li>
-      </ul>
+      
     </div>
     <!-- /.navbar-collapse --> 
   </div>
   <!-- /.container-fluid --> 
 </nav>
+<br>
+<table align="center" width="900" border="0">
+  <tbody>
+    <tr>
+      <td><table width="300" border="0">
+  <tbody>
+    <tr>
+      <td>
+        <img src="linkedin.jpg" class="img-circle img-responsive" style="width: 200px; height: 200px;" alt="" >
+        </td>
+    </tr>
+  </tbody>
+</table>
+</td>
+      <td><table width="600" border="0">
+  <tbody>
+    <tr>
+      <td>
+      <h2> About Me </h2>  
+      <p> Now this one might seem super simple and not very helpful, what can planting one tree accomplish, right? Wrong. There are 7 billion people on this Earth. If one persone plants one tree, there won't be a diference in the garnd scheme of things. However, if 10% of the people on this planet each planted one tree there would be 70 million more trees and that would make a siggnificant difference. Planting trees won't stop deforestation, but it can help counter the effects of it our planet. </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</td>
+    </tr>
 
-<!-- HEADER -->
-<header>
-  <div class="jumbotron transparent">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-        <br><br><br>
-          <h1 class="text-center">Deforestation</h1>
-          <p class="text-center">Stealing your breath away one tree at a time. </p>
-          <p>&nbsp;</p>
-          <p class="text-center"><a class="btn btn-primary btn-lg" href="treesponsible - about us.html" role="button">Learn more</a><br><br><br><br> </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-<!-- / HEADER --> 
-
-
-<footer class="text-center">
-        <p>Copyright © MyWebsite. All rights reserved.</p>
-</footer>
-<!-- / FOOTER --> 
-
+  </tbody>
+</table>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="jquery.js"></script> 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="bootstrap.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="http://arrow.scrolltotop.com/arrow53.js"></script>
+<noscript>Not seeing a <a href="http://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
+
 </body>
 </html>
-
