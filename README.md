@@ -38,7 +38,7 @@
       <ul class="nav navbar-nav">
         <li><a href="about me.html"><b>About Me</b></a> </li>
         <li><a href="portfolio.html"><b>Portfolio</b></a> </li>
-        <li><a href="resume.html"><b>Resume</b></a> </li>
+        <li><a href="resume - daria pushkareva.pdf"><b>Resume</b></a> </li>
         <li><a href="contact me.html"><b>Contact Me</b></a> </li> 
       </ul>
       
