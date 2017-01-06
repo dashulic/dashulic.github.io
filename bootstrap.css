@@ -11,10 +11,8 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-	width: 1366px;
-	margin: 0;
-	display: inline-block;
-	align-self: center;  
+	width: 100%;
+	margin: 0px auto; 
   }
   a:link {
 	  color: #45FFC5;
