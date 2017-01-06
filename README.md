@@ -20,7 +20,7 @@
 <body>
 
 <div>
-<a href="index.html"><img src="Header1.png" width="1139" height="300" alt="header"/></a>
+<a href="about me.html"><img src="Header1.png" width="1139" height="300" alt="header"/></a>
 </div>
 
 
@@ -36,7 +36,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     
       <ul class="nav navbar-nav">
-        <li><a href="about me.html"><b>About Me</b></a> </li>
+        <li><a href="about me.html"><b><i>About Me</i></b></a> </li>
         <li><a href="portfolio.html"><b>Portfolio</b></a> </li>
         <li><a href="resume - daria pushkareva.pdf"><b>Resume</b></a> </li>
         <li><a href="contact me.html"><b>Contact Me</b></a> </li> 
@@ -66,7 +66,8 @@
     <tr>
       <td>
       <h2> About Me </h2>  
-      <p> Now this one might seem super simple and not very helpful, what can planting one tree accomplish, right? Wrong. There are 7 billion people on this Earth. If one persone plants one tree, there won't be a diference in the garnd scheme of things. However, if 10% of the people on this planet each planted one tree there would be 70 million more trees and that would make a siggnificant difference. Planting trees won't stop deforestation, but it can help counter the effects of it our planet. </p>
+      <p> I am a university student currently studying in a double degree program, this program includes a Computer Science (Bcs) degree at the University of Waterloo and a Business Administration (Bba) degree at Wilfrid Laurier University. I have a passion for coding, designing, entrepreneurship and learning. I have experience working with Html, CSS, Java, Javascript and Racket. <br> <br>
+      I am also a competitive ballroom dancer and have been competing for over 5 years. In my free time I enjoy reading and practicing different hair and makeup looks. Check out my portfolio <a href="portfolio.html">here</a>. </p>
       </td>
     </tr>
   </tbody>
@@ -76,6 +77,9 @@
 
   </tbody>
 </table>
+<br>
+<div>
+<img src="Footer.png" width="1139" height="150" alt="footer"/></div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="jquery.js"></script> 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
