@@ -23,7 +23,9 @@ img.align-center{
     margin-left:5%; 
     margin-right:10%;
   }
-  h2.indent{ padding-left: 50px }
+  h2.indent{
+	padding-left: 50px
+}
 	
   a:link {
 	  color: #45FFC5;
