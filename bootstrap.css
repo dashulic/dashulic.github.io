@@ -14,22 +14,10 @@ body {
 	width: 100%; 
 	margin: 0px auto;
   }
-#slideshow { 
-    margin: 50px auto; 
-    position: relative; 
-    width: 240px; 
-    height: 240px; 
-    padding: 10px; 
-    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
-}
-
-#slideshow > div { 
-    position: absolute; 
-    top: 10px; 
-    left: 10px; 
-    right: 10px; 
-    bottom: 10px; 
-}
+img.align-center{
+	display: block;
+	margin: 0px auto;}
+	
   a:link {
 	  color: #45FFC5;
   }
@@ -2305,7 +2293,9 @@ pre code {
   }
 }
 table {
-  background-color: transparent;
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
 }
 caption {
   padding-top: 8px;
