@@ -4333,6 +4333,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 	/* [disabled]display: inline-block; */
 	text-align: center;
 	padding-left: 0px;
+	z-index: 1;
   }
   .navbar-nav > li {
 	color: rgba(0,0,0,1.00);
