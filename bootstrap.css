@@ -14,6 +14,22 @@ body {
 	width: 100%; 
 	margin: 0px auto;
   }
+#slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 240px; 
+    height: 240px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
   a:link {
 	  color: #45FFC5;
   }
@@ -1318,7 +1334,8 @@ h2,
 }
 h3,
 .h3 {
-  font-size: 24px;
+	font-size: 24px;
+	color: rgba(69,255,197,1.00);
 }
 h4,
 .h4 {
@@ -2293,6 +2310,7 @@ table {
 caption {
   padding-top: 8px;
   padding-bottom: 8px;
+  background:rgba(0,0,0,1.00); 
   color: #777;
   text-align: left;
 }
@@ -4960,21 +4978,23 @@ a.badge:focus {
   }
 }
 .thumbnail {
-  display: block;
-  padding: 4px;
-  margin-bottom: 20px;
-  line-height: 1.42857143;
-  background-color: rgba(221,243,193,0.6);
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  -webkit-transition: border .2s ease-in-out;
-       -o-transition: border .2s ease-in-out;
-          transition: border .2s ease-in-out;
+	display: block;
+	padding: 4px;
+	margin-bottom: 20px;
+	line-height: 1.42857143;
+	background-color: rgba(0,0,0,1.00);
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	-webkit-transition: border .2s ease-in-out;
+	-o-transition: border .2s ease-in-out;
+	transition: border .2s ease-in-out;
 }
 .thumbnail > img,
 .thumbnail a > img {
-  margin-right: auto;
-  margin-left: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 7px;
+	border: thin solid rgba(0,0,0,1.00);
 }
 a.thumbnail:hover,
 a.thumbnail:focus,
